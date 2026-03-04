@@ -5,7 +5,7 @@ import { SafeAreaView } from 'react-native-safe-area-context';
 export default function Calculadora() {
   return (
     <SafeAreaView style={styles.container}>
-      <View style={[styles.display, { backgroundColor: 'black' }]}>
+      <View style={[styles.display, { backgroundColor: 'white' }]}>
         <Text style={{ color: 'red', fontSize: 50 }}>0</Text>
       </View>
     </SafeAreaView>
@@ -17,7 +17,7 @@ const styles = StyleSheet.create({
     flex: 1,
     justifyContent: 'center',
     alignItems: 'center',
-    backgroundColor: 'white',
+    backgroundColor: 'black',
   },
   display: {
     width: '80%',
