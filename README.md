@@ -1,1 +1,0 @@
-# Aplica-o-Mobile-Calculadora
